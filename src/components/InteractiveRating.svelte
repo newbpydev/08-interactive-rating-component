@@ -13,8 +13,7 @@
     rating = parseInt(target.value);
   };
 
-  const handleSubmit = (e: SubmitEvent) => {
-    e.preventDefault();
+  const handleSubmit = (e: MouseEvent) => {
     setRating(rating);
     console.log(e.target);
   };
@@ -51,7 +50,7 @@
   <button
     class="interactive-rating__button"
     type="submit"
-    on:click={handleSubmit}>Submit</button
+    on:click|preventDefault={handleSubmit}>Submit</button
   >
 </article>
 
@@ -75,7 +74,6 @@
   }
 
   .interactive-rating__image {
-    /* width: 1.396rem; */
     width: 4rem;
     padding: 1.302rem;
     background: var(--neut-blue-dark);
@@ -86,6 +84,7 @@
   .interactive-rating__heading {
     font-weight: 700;
     font-size: 2.4rem;
+    color: var(--neut-white);
     /* line-height: 3; */
     /* margin-bottom: 1rem; */
   }
@@ -111,6 +110,7 @@
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s ease;
+    color: var(--neut-grey-medium);
     /* margin-bottom: 2.4rem; */
   }
 
@@ -125,15 +125,58 @@
 
   .interactive-rating__button {
     cursor: pointer;
-    border-radius: 4rem;
+    border-radius: 5rem;
     height: 4.5rem;
     background: var(--pri-orange);
     color: var(--neut-white);
     text-align: center;
     transition: all 0.3s ease;
+    letter-spacing: 0.186667rem;
+    font-weight: 700;
+    font-size: 1.4rem;
   }
   .interactive-rating__button:hover {
     background: var(--neut-white);
     color: var(--pri-orange);
+  }
+
+  /* * Media 1440 px = 90em  */
+  @media (min-width: 90em) {
+    .interactive-rating {
+      max-width: 41.2rem;
+      height: 41.6rem;
+      border-radius: 3rem;
+    }
+
+    .interactive-rating__image {
+      width: 4.8rem;
+      padding: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .interactive-rating__heading {
+      font-size: 2.8rem;
+    }
+
+    .interactive-rating__message {
+      line-height: 1.9;
+      font-size: 1.5rem;
+    }
+
+    .interactive-rating__rating-container {
+      margin-bottom: 1.5rem;
+    }
+
+    .interactive-rating__rating {
+      width: 5.1rem;
+      height: 5.1rem;
+      font-size: 1.6rem;
+    }
+
+    .interactive-rating__button {
+      letter-spacing: 0.2rem;
+      font-size: 1.5rem;
+      /* height: ; */
+    }
   }
 </style>
