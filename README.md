@@ -1,6 +1,10 @@
+# Frontend Mentor - Interactive rating component solution
+
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
 ## Table of contents
 
-- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+- [Frontend Mentor - Interactive rating component solution](#frontend-mentor---interactive-rating-component-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Screenshot](#screenshot)
@@ -26,7 +30,7 @@ button to add to cart.
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/newbpydev/product-preview-card-component)
+- Solution URL: [GitHub](https://github.com/newbpydev/08-interactive-rating-component)
 - Live Site URL: [Live Site](https://darling-pastelito-c7764d.netlify.app/)
 
 ## My process
