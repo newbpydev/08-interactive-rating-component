@@ -103,9 +103,10 @@
   .interactive-rating__rating {
     width: 4.2rem;
     height: 4.2rem;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    text-align: center;
     background: var(--neut-blue-dark);
     border-radius: 50%;
     cursor: pointer;
