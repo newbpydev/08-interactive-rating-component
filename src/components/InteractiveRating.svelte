@@ -51,7 +51,7 @@
   <button
     class="interactive-rating__button"
     type="submit"
-    on:click|preventDefault={handleSubmit}>Submit</button
+    on:click|preventDefault={handleSubmit}>SUBMIT</button
   >
 </article>
 
