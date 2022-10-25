@@ -15,7 +15,6 @@
 
   const handleSubmit = (e: MouseEvent) => {
     setRating(rating);
-    console.log(e.target);
   };
 </script>
 
