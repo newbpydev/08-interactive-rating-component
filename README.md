@@ -19,7 +19,10 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
-This is my solution to the Interactive Rating Component challenge. It is a .
+This is my solution to the Interactive Rating Component challenge. It is an
+interactive rating component that will receive input from the user, the user
+must select a value from 1 to 5 and submit the form. The user receives a thank
+you note with the selected rating our of 5 and a thank you message.
 
 ### Screenshot
 
@@ -38,39 +41,44 @@ This is my solution to the Interactive Rating Component challenge. It is a .
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Svelte + Vite
+- Svelte + Vite + TypeScript
 
 ### What I learned
 
 I have learned on this project that we need to practice everyday and work hard
-to really understand how everything works, specially with the images background.
-I will have to review this topic better.
+to really understand how everything works, specially with the flexbox. Flexbox
+is very powerful and useful but we much mind the margin spaces that might
+influence the final spacing inside a flexbox. I must further study this topic.
 
 ```css
-.product-card__button {
-  width: 100%;
-  height: 4.8rem;
-  border: none;
-  border-radius: 0.8rem;
-  background: var(--pri-cyan);
-  color: var(--neut-white);
+.interactive-rating {
+  max-width: 32.7rem;
+  height: 36rem;
+  padding: 2.4rem 2.4rem 3.2rem 2.4rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.161rem;
-  transition: all 0.3s ease;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: var(--border-radius);
 }
 ```
 
 ### Continued development
 
-For future development, I will continue to use background-image for divs so I
-could practice more the placement of the image in the element.
+For future development, I will continue to use flexbox to help me with the
+layout of my components. For the next project I would like to try new ways of
+using flexbox. I have also used the input with a button type, I will futher
+study this topic as well.
 
 ### Useful resources
 
-- [CSS-TRICKS - Centering CSS Complete Guide](https://css-tricks.com/centering-css-complete-guide/) - If you have two or more block-level elements that need to be centered horizontally in a row, chances are you’d be better served making them a different display type. Here’s an example of making them inline-block and an example of flexbox....
-- [MDN - background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) - The background-image CSS property sets one or more background images on an element.
+- [MDN - input type="button"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button) - input elements of type button are rendered as simple push buttons, which can be programmed to control custom functionality anywhere on a webpage as required when assigned an event handler function (typically for the click event).
+- [MDN - Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to fill additional space or shrink to fit into smaller spaces. This article explains all the fundamentals.
 
 ## Author
 
