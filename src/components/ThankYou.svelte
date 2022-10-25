@@ -8,11 +8,7 @@
 
 <!-- * TEMPLATE -->
 <article class="thank-you">
-  <img
-    class="thank-you__img"
-    src={illusThankYou}
-    alt="thank you illustration"
-  />
+  <img class="thank-you__img" src={illusThankYou} alt="" aria-hidden="true" />
 
   <p class="thank-you__rating">You selected {rating} out of {maxRating}</p>
 

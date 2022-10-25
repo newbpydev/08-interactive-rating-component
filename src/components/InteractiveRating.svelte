@@ -24,7 +24,8 @@
   <img
     src={starImg}
     class="interactive-rating__image"
-    alt="An illustration of an orange star"
+    alt=""
+    aria-hidden="true"
   />
 
   <h1 class="interactive-rating__heading">How did we do?</h1>
