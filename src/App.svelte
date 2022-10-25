@@ -8,7 +8,7 @@
 
   let rating: number;
   let maxRating: number = 5;
-  let isRating = false;
+  let isRating = true;
 
   const handleRating = (valuation: number) => {
     rating = valuation;
