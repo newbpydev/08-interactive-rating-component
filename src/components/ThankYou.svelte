@@ -46,6 +46,7 @@
   .thank-you__img {
     width: 14.4rem;
     margin: 0 auto;
+    margin-bottom: 1rem;
   }
 
   .thank-you__rating {
@@ -72,6 +73,38 @@
 
   .thank-you__message {
     font-size: 1.4rem;
-    line-height: 1.5;
+    line-height: 157%;
+  }
+
+  /* media 1440 = 90em */
+  @media (min-width: 90em) {
+    .thank-you {
+      max-width: 41.2rem;
+      height: 41.6rem;
+      border-radius: 3rem;
+      padding: 4.5rem 3.6rem;
+    }
+
+    .thank-you__img {
+      width: 16.2rem;
+      height: 10.8rem;
+      margin-bottom: 2rem;
+    }
+
+    .thank-you__rating {
+      width: 19.3rem;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .thank-you__heading {
+      font-size: 2.8rem;
+    }
+
+    .thank-you__message {
+      font-size: 1.5rem;
+      line-height: 160%;
+      /* width: 34rem; */
+    }
   }
 </style>

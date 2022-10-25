@@ -25,7 +25,7 @@ button to add to cart.
 
 ### Screenshot
 
-![](./public/images/screenshot-mobile.png)
+![]()
 ![](./public/images/screenshot-desktop.png)
 
 ### Links

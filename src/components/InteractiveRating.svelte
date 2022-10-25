@@ -78,7 +78,7 @@
     padding: 1.302rem;
     background: var(--neut-blue-dark);
     border-radius: 50%;
-    /* margin-bottom: 1.6rem; */
+    margin-bottom: -1rem;
   }
 
   .interactive-rating__heading {
@@ -86,13 +86,14 @@
     font-size: 2.4rem;
     color: var(--neut-white);
     /* line-height: 3; */
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
   }
 
   .interactive-rating__message {
     line-height: 157%;
     font-size: 1.4rem;
     /* margin-bottom: 2.4rem; */
+    margin-top: -3rem;
   }
 
   .interactive-rating__rating-container {
@@ -147,25 +148,28 @@
       max-width: 41.2rem;
       height: 41.6rem;
       border-radius: 3rem;
+      padding: 3.2rem;
     }
 
     .interactive-rating__image {
       width: 4.8rem;
       padding: 1.6rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     .interactive-rating__heading {
       font-size: 2.8rem;
+      margin-bottom: 1rem;
     }
 
     .interactive-rating__message {
-      line-height: 1.9;
+      line-height: 1.5;
       font-size: 1.5rem;
+      margin-top: -2rem;
     }
 
     .interactive-rating__rating-container {
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.9rem;
     }
 
     .interactive-rating__rating {
