@@ -19,19 +19,17 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
-This is my solution to the Product preview card component challenge. It is a simple card
-that shows the image of the product and a description with the price and a
-button to add to cart.
+This is my solution to the Interactive Rating Component challenge. It is a .
 
 ### Screenshot
 
-![]()
-![](./public/images/screenshot-desktop.png)
+![](./src//assets//images//screenshot-desktop.png)
+![](./src//assets//images/screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/newbpydev/08-interactive-rating-component)
-- Live Site URL: [Live Site](https://darling-pastelito-c7764d.netlify.app/)
+- Live Site URL: [Live Site](https://earnest-fox-cf8611.netlify.app/)
 
 ## My process
 
